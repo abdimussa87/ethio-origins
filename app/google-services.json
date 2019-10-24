@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "760418445854",
+    "firebase_url": "https://ethioorigins.firebaseio.com",
+    "project_id": "ethioorigins",
+    "storage_bucket": "ethioorigins.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:760418445854:android:2d5663f0e76e9604",
+        "android_client_info": {
+          "package_name": "com.example.ethioorigins"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "760418445854-p09opve1b11ts0jr15g8hpm88c8ant2o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ethioorigins",
+            "certificate_hash": "68366ff41eabb991fcd61f305d407248890e8f88"
+          }
+        },
+        {
+          "client_id": "760418445854-evc76m9g14q8pbkat5cke7no92a40075.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLvj3An8xJhLtYSq6j4-0CAd-mpUYBeqc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "760418445854-evc76m9g14q8pbkat5cke7no92a40075.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

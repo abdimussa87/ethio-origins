@@ -1,0 +1,114 @@
+<resources>
+
+    <string name="login_btn_text">Login</string>
+    <string name="email_hint">username</string>
+    <string name="password_edittext">password</string>
+    <string name="or">OR</string>
+    <string name="sign_up_btn_text">Create an account</string>
+
+    <string name="field_can_not_be_empty">Field can not be empty</string>
+    <string name="password_length">Password can not be less than 6 characters </string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="forgot_password_tv_text">FORGOT PASSWORD?</string>
+    <string name="forgot_password_tv2_text">Please enter your email address you registered with and we will send you instructions on how to reset your lost password.</string>
+    <string name="reset_password_btn_text">Reset Password</string>
+    <string name="reset_password_successful">We have sent you instructions to reset your password!</string>
+    <string name="reset_password_unsuccesful">Failed to send reset email!</string>
+    <string name="action_profile_settings">Profile Settings</string>
+    <string name="action_logout_text">Logout</string>
+    <string name="toolbar_title">Ethiopiawinet Melkaminet</string>
+    <string name="signup_tv_text">Please fill in the following information</string>
+    <string name="register_signup_btn_text">Register</string>
+    <string name="reg_already_have_an_account_btn_text">Already have an account?</string>
+    <string name="confirm_password_hint">confirm password</string>
+
+    <string name="tiya">Tiya</string>
+    <string name="fasiledes">Fasiledes</string>
+    <string name="axum">Axum</string>
+    <string name="fasiledes_detail">In the 16th and 17th centuries, the fortress-city of Fasil Ghebbi was the residence of the Ethiopian emperor Fasilides and his successors. Surrounded by a 900-m-long wall, the city contains palaces, churches, monasteries and unique public and private buildings marked by Hindu and Arab influences, subsequently transformed by the Baroque style brought to Gondar by the Jesuit missionaries.</string>
+    <string name="tiya_detail">Tiya is among the most important of the roughly 160 archaeological sites discovered so far in the Soddo region, south of Addis Ababa. The site contains 36 monuments, including 32 carved stelae covered with symbols, most of which are difficult to decipher. They are the remains of an ancient Ethiopian culture whose age has not yet been precisely determined.</string>
+    <string name="axum_detail">The ruins of the ancient city of Aksum are found close to Ethiopia\'s northern border. They mark the location of the heart of ancient Ethiopia, when the Kingdom of Aksum was the most powerful state between the Eastern Roman Empire and Persia.</string>
+    <string name="app_name">Ethio Origins</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Ethio Origins</string>
+    <string name="nav_header_subtitle">All found in Ethiopia right under your fingertips</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_account_settings">Account Settings</string>
+    <string name="action_logout">Logout</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_hotels">Hotels</string>
+    <string name="menu_restaurants">Restaurants</string>
+    <string name="menu_tour">Tour</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_about">About</string>
+    <string name="restaurants_title_text">Restaurants</string>
+    <string name="restaurants_tv_text">Find all the popular restaurants in Ethiopia</string>
+    <string name="hotels_title_text">Hotels</string>
+    <string name="hotels_tv_text">Find hotels with the best pricing for value</string>
+    <string name="tour_title_text">Tour</string>
+    <string name="tour_tv_text">Find the best tourist attractions sites in Ethiopia</string>
+    <string name="bellaview_title_text">Bellevue</string>
+    <string name="bellaview_detail">Situated in the most enchanting location of Addis Ababa with a panoramic beautiful view of Ethiopia\'s capital City</string>
+    <string name="check_out_bellaview_btn_text">Check Out Bellevue</string>
+    <string name="parkdale_title_tv">Parkdale</string>
+    <string name="parkdale_detail_tv">Bringing a grilling revolution to Addis. We are set on freshness, our burger meat is ground on-site and our buns are baked in-house every day.</string>
+    <string name="checkout_parkdale_btn_text">Check Out Parkdale</string>
+    <string name="title_activity_detail_restaurants">DetailRestaurants</string>
+
+    <string name="Bellaview">Bellevue</string>
+    <string name="Parkdale">Parkdale</string>
+
+    <string name="Burger">Burger</string>
+    <string name="Pizza">Pizza</string>
+    <string name="chicken">Chicken</string>
+    <string name="lasagna">Lasagna</string>
+
+    <string name="burger_price">Price: 100</string>
+    <string name="pizza_price">Price: 200</string>
+    <string name="chicken_price">Price: 300</string>
+
+    <string name="burger_contents">Contents: Beef, Salad, Cheese, Mayonesse, Egg, Fries</string>
+    <string name="pizza_contents">Contents: Cheese, Beef, Chicken, Tuna</string>
+    <string name="chicken_contents">Contents: Chicken, Fries</string>
+
+    <string name="burger_rating">Rating: 5</string>
+    <string name="pizza_rating">Rating: 4</string>
+    <string name="chicken_rating">Rating: 4.5</string>
+
+    <string name="chicken_hut_pizza_price">Price: 80</string>
+    <string name="chicken_hut_lazagna_price">Price: 80</string>
+    <string name="chicken_hut_chicken_price">Price: 80</string>
+
+    <string name="chicken_hut_lazagna_content">Contents: Beef, Lasagna, Egg, Salad</string>
+    <string name="chicken_hut_chicken_content">Contents: Nuggets, Chicken Wing, Chicken drum stick</string>
+    <string name="chicken_hut_pizza_content">Contents: Cheese, Beef, Chicken, Tuna</string>
+
+    <string name="chicken_hut_lasagna_rating">Rating: 4.5</string>
+    <string name="chicken_hut_chicken_rating">Rating: 3.5</string>
+    <string name="chicken_hut_pizza_rating">Rating: 5</string>
+    <string name="chicken_hut">Chicken Hut</string>
+    <string name="chicken_hut_detail_tv_text">Chicken Hut provides a wide variety of crunchy, delicious fried chicken foods with a quality and freshness that sets a new standard in the quick service segment.</string>
+    <string name="check_out_chicken_hut_btn_text">Check Out ChikenHut</string>
+
+    <string name="sheraton">Sheraton</string>
+    <string name="hilton">Hilton</string>
+    <string name="skylight">Skylight</string>
+
+    <string name="sheraton_hotel_description">Welcome to Sheraton Addis Hotel located in the centre of Addis Ababa near the National Museums, United Nations Conference Centre, the UNECA headquarters, the Merkato and Bole International Airport (7km). The hotel is a sanctuary of Ethiopian grandeur, where a landscape of vibrant greens and colourful wildflowers meets the African sky.</string>
+    <string name="sheraton_hotel_deals_price">$135</string>
+    <string name="sheaton_hotel_review">One of the best hotels found in Ethiopia with great service from the staff working there.</string>
+
+    <string name="hilton_hotel_description">Hilton Addis Ababa is the preferred venue for meetings and exhibitions; with years of experience and outside catering options, our specialists have the skill to make your event a success.Relax in our urban retreat, popular with the trendy and famous. Escape the noise of the city and unwind with leisure facilities including geothermal swimming pool, tennis court, putting green and private park. Discover the culture and history of Addis Ababa, a vibrantly alive landscape of dramatic beauty.</string>
+    <string name="hilton_hotel_price">$100</string>
+    <string name="hilton_hotel_review">The Hilton may not be newest hotel in Addis but it truly has charm and character that many of the new hotels can not offer. I highly recommend staying at the Hilton Addis.</string>
+
+    <string name="skylight_hotel_description">Ethiopian Skylight Hotel is located at the heart of Addis Ababa, just five minutes away from Addis Ababa Bole International Airport. Meeting international standards with outstanding quality of service, Africa’s commercial hub awaits you.</string>
+    <string name="skylight_hotel_price">$110</string>
+    <string name="skylight_hotel_review">A very convenient place to stay. It has all the amenities Skylight is known for and more. Only a short distance from the airport. The pool side restaurant was very relaxing. The staff was very hospitable.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
+

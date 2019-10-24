@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HotelDetailActivity"
+
+    android:paddingStart="8dp"
+    android:paddingEnd="8dp">
+
+    <ScrollView
+        android:fillViewport="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/hotel_detail_image_view"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/hotel_detail_hotel_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/hotel_detail_image_view"
+                android:layout_margin="10dp"
+                android:text="Hotel Name"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"/>
+
+            <com.uncopt.android.widget.text.justify.JustifiedTextView
+                android:textAlignment="textStart"
+                android:id="@+id/hotel_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/hotel_detail_hotel_name"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="This is the hotel descripiton"
+                android:textSize="20sp"
+                android:textStyle="italic"/>
+
+            <TextView
+                android:id="@+id/deals_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/hotel_description"
+                android:layout_margin="10dp"
+                android:text="Deals"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/deals_detail_tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/deals_tv"
+                android:layout_margin="10dp"
+                android:text="Hotels.com"
+                android:textSize="20sp"
+                android:textStyle="italic"/>
+
+            <TextView
+                android:id="@+id/deals_detail_tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/deals_detail_tv1"
+                android:layout_margin="10dp"
+                android:text="Bookings.com"
+                android:textSize="20sp"
+                android:textStyle="italic"/>
+
+            <TextView
+                android:id="@+id/deals_detail_tv1_money_tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/deals_detail_tv1"
+                android:layout_alignParentEnd="true"
+
+                android:layout_marginEnd="20dp"
+
+                android:text="$87"
+                android:textColor="@android:color/holo_green_light"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/deals_detail_tv2_money_tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignTop="@+id/deals_detail_tv2"
+                android:layout_alignParentEnd="true"
+
+                android:layout_marginTop="-3dp"
+                android:layout_marginEnd="20dp"
+
+
+                android:text="$87"
+                android:textColor="@android:color/holo_green_light"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/guest_review_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/deals_detail_tv2"
+                android:layout_margin="10dp"
+                android:text="Guest Reviews"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <com.uncopt.android.widget.text.justify.JustifiedTextView
+                android:textAlignment="textStart"
+                android:id="@+id/guest_review_detail_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/guest_review_tv"
+                android:layout_margin="10dp"
+                android:text="This is such an awesome hotel."
+                android:textSize="20sp"
+                android:textStyle="italic"/>
+
+            <Button
+                android:id="@+id/book_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/give_review_edit_text"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="-29dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/rounded_corner"
+                android:backgroundTint="@color/colorAccent"
+                android:padding="16dp"
+                android:text="Book a room"
+                android:textColor="@android:color/white" />
+
+            <EditText
+                android:id="@+id/give_review_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/guest_review_detail_tv"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toLeftOf="@id/post_btn"
+                android:backgroundTint="@color/colorAccent"
+                android:hint="Give Review"
+                android:inputType="textMultiLine"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+            <Button
+                android:id="@+id/post_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/guest_review_detail_tv"
+                android:layout_alignParentEnd="true"
+                android:layout_marginLeft="5dp"
+
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="4dp"
+                android:backgroundTint="@color/colorAccent"
+                android:padding="16dp"
+                android:text="Post"
+                android:textColor="@android:color/white" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/navigate_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/book_btn"
+                android:layout_alignParentEnd="true"
+
+                android:layout_marginTop="7dp"
+                android:layout_marginEnd="19dp"
+                android:layout_marginBottom="20dp"
+                android:clickable="true"
+                app:backgroundTint="@color/blue"
+                app:srcCompat="@drawable/ic_navigate" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

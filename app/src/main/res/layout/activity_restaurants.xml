@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:mContext=".Restaurants"
+    android:padding="10dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/bellaview_iv"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/bellevu_image_2"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="1dp" />
+
+            <TextView
+                android:id="@+id/bellaview_title_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bellaview_iv"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/bellaview_title_text"
+                android:textAllCaps="true"
+                android:textAppearance="@style/ThemeOverlay.AppCompat.Dark"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/bellaview_detail_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bellaview_title_tv"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/bellaview_detail"
+                android:textStyle="italic"
+                android:textSize="20sp"
+                android:textAppearance="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+            <Button
+                android:background="@drawable/rounded_corner"
+                android:padding="8dp"
+                android:id="@+id/checkout_bellaview_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bellaview_detail_tv"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="end"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:backgroundTint="@color/colorAccent"
+                android:text="@string/check_out_bellaview_btn_text"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/parkdale_iv"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/parkdale"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="1dp" />
+
+            <TextView
+                android:id="@+id/parkdale_title_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/parkdale_iv"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/parkdale_title_tv"
+                android:textAllCaps="true"
+                android:textAppearance="@style/ThemeOverlay.AppCompat.Dark"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/parkdale_detail_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/parkdale_title_tv"
+                android:layout_alignParentStart="true"
+                android:textStyle="italic"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:textAppearance="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            android:text="@string/parkdale_detail_tv"
+                android:textSize="20sp" />
+
+            <Button
+                android:background="@drawable/rounded_corner"
+                android:padding="8dp"
+                android:id="@+id/checkout_parkdale_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/parkdale_detail_tv"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="end"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:backgroundTint="@color/colorAccent"
+                android:text="@string/checkout_parkdale_btn_text"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/chicken_hut_iv"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/chicken_hut"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="1dp" />
+
+            <TextView
+                android:id="@+id/chicken_hut_title_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/parkdale_iv"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/chicken_hut"
+                android:textAllCaps="true"
+                android:textAppearance="@style/ThemeOverlay.AppCompat.Dark"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/chicken_hut_detail_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/parkdale_title_tv"
+                android:layout_alignParentStart="true"
+                android:textStyle="italic"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:textAppearance="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                android:text="@string/chicken_hut_detail_tv_text"
+                android:textSize="20sp" />
+
+            <Button
+                android:background="@drawable/rounded_corner"
+                android:padding="8dp"
+                android:id="@+id/checkout_chicken_hut_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/parkdale_detail_tv"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="end"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:backgroundTint="@color/colorAccent"
+                android:text="@string/check_out_chicken_hut_btn_text"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
